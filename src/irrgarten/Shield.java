@@ -7,27 +7,25 @@ package irrgarten;
 /**
  * @author francisco y miriam
  */
-public class Weapon {
-    private float power;
+public class Shield {
+    private float protection;
     private int uses;
-
-    public Weapon(float power, int uses) {
-        this.power = power;
+    
+    public Shield (float protection, int uses) {
+        this.protection = protection;
         this.uses = uses;
     }
     
-    public float attack() {
+    public float protect () {
         if (uses > 0) {
             uses--;
-            return power;
+            return protection;
         }
-        
-        return 0;
-    }
-
-    @Override
-    public String toString() {
-        return "W[" + power + "," + uses + "]";
+        return 0; 
     }
     
+    @Override
+    public String toString() {
+        return "S[" + protection + "," + uses + "]";
+    }
 }
