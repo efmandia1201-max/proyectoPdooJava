@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package irrgarten;
 
 import java.util.Random;
 
 /**
- * @author francisco y miriam
+ * @author francisco manuel de céspedes y miriam pulido
  */
 public class Dice {
     private static final int MAX_USES = 5;
@@ -38,7 +34,7 @@ public class Dice {
         return generator.nextFloat(MAX_STRENGTH);
     }
     
-    public static boolean resuctPlayer() {
+    public static boolean resurrectPlayer() {
        return generator.nextFloat() < RESURRECT_PROB;
     }
     

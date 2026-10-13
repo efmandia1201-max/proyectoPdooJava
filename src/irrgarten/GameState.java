@@ -1,11 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package irrgarten;
 
 /**
- * @author francisco y miriam
+ * @author francisco manuel de céspedes y miriam pulido
  */
 public class GameState {
     private String labyrinth;

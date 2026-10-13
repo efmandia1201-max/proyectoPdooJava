@@ -1,11 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package irrgarten;
 
 /**
- * @author francisco y miriam
+ * @author francisco manuel de céspedes y miriam pulido
  */
 public class Weapon {
     private float power;
@@ -21,13 +17,12 @@ public class Weapon {
             uses--;
             return power;
         }
-        
         return 0;
     }
 
     @Override
     public String toString() {
-        return "W[" + power + "," + uses + "]";
+        return "W[" + power + ", " + uses + "]";
     }
     
     public boolean discard() {
